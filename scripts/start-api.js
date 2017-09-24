@@ -5,6 +5,9 @@ const bodyParser = require('body-parser');
 const http = require('http');
 const cors = require('cors');
 const nodeMailer = require('nodemailer');
+const dotenv = require('dotenv');
+
+dotenv.load();
 
 //CONFIGS
 app.use(express.static(__dirname));
@@ -29,22 +32,14 @@ app.get('/', function(req, res){
   res.json({message:'BackEnd Working!'})
 });
 
-app.get('/contact', function(req, res) {
-  const data = req.body;
-
-  res.set('Content-Type', 'application/json')
-  res.send({message: req.body})
-
-})
-
 app.post('/contact', function(req, res) {
   let transporter = nodeMailer.createTransport({
     host: 'smtp.gmail.com',
     port: 465,
     secure: true,
     auth: {
-      user: 'andrewangelle@gmail.com',
-      pass: 'zydeco!@#$'
+      user: process.env.GMAIL_USER,
+      pass: process.env.GMAIL_PASSWORD
     }
   });
 
