@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Glide from 'react-glide';
 import Flexbox from 'flexbox-react';
 import Navigation from '../components/Navigation/Navigation.js';
+import LogoHome from '../components/Logo/LogoHome.js';
 import 'react-glide/lib/react-glide.css';
 import '../styles/index.css'
 
@@ -12,10 +13,11 @@ export default class Home extends Component {
       <div>
         <Flexbox
           flexDirection='column'
-          minHeight='100vh'
           justifyContent='center'
           alignItems='center'
         >
+          <LogoHome />
+
           <Flexbox>
             <Navigation />
           </Flexbox>

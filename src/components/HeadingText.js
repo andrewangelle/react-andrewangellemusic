@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const HeadingText = styled.div`
   font-family:"Allura";
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 600;
   color: #7a1f1f;
   padding: 0;

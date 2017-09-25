@@ -15,18 +15,19 @@ const NavLink = styled.li`
   flex: auto;
 
   @media screen and (max-width: 500px){
-    padding: 0px 12px 0px 12px;
+    display: block;
     font-size: 14px;
   }
 
+
   @media screen and (max-width: 700px){
-    padding: 0px 20px 0px 20px;
+    display: block;
     font-size: 14px;
   }
 
 
   @media screen and (max-width: 900px){
-    padding: 0px 30px 0px 30px;
+    display: block;
     font-size: 16px;
   }
 `;

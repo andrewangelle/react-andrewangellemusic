@@ -17,6 +17,7 @@ export default class VideoPlayer extends Component {
         <Flexbox>
           <Glide width={width}>
             <iframe
+              title="video1"
               width="600"
               height="315"
               src="https://www.youtube.com/embed/UATT-mYsDlU"
@@ -25,6 +26,7 @@ export default class VideoPlayer extends Component {
             >
             </iframe>
             <iframe
+              title="video2"
               width="600"
               height="315"
               src="https://www.youtube.com/embed/h3dpgKj9AjA"
@@ -33,6 +35,7 @@ export default class VideoPlayer extends Component {
             >
             </iframe>
             <iframe
+              title="video3"
               width="600"
               height="315"
               src="https://www.youtube.com/embed/keJm114txg0"
@@ -41,6 +44,7 @@ export default class VideoPlayer extends Component {
             >
             </iframe>
             <iframe
+              title="video4"
               width="600"
               height="315"
               src="https://www.youtube.com/embed/0a19fpcE9QM"
@@ -49,6 +53,7 @@ export default class VideoPlayer extends Component {
             >
             </iframe>
             <iframe
+              title="video5"
               width="600"
               height="315"
               src="https://www.youtube.com/embed/uiDZ3JbsXSw"
@@ -57,6 +62,7 @@ export default class VideoPlayer extends Component {
             >
             </iframe>
             <iframe
+              title="video6"
               width="600"
               height="315"
               src="https://www.youtube.com/embed/yZ0JciwdMew"
@@ -65,6 +71,7 @@ export default class VideoPlayer extends Component {
             >
             </iframe>
             <iframe
+              title="video7"
               width="600"
               height="315"
               src="https://www.youtube.com/embed/0IbN63KnPrM"

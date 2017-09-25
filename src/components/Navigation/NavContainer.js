@@ -6,9 +6,16 @@ const NavContainer = styled.ul`
   background-color:Black;
   position:relative;
   display: inline-flex;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
+  justify-content: space-between;
+  margin: auto;
+
+  @media screen and (max-width: 700px){
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
 `;
 
 export default NavContainer

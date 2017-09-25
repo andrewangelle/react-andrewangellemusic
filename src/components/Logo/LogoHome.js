@@ -3,7 +3,7 @@ import Flexbox from 'flexbox-react';
 import LogoContainer from './LogoContainer';
 import LogoText from './LogoText';
 
-export default class Logo extends Component {
+export default class LogoHome extends Component {
   render() {
     return (
       <LogoContainer>

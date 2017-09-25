@@ -9,8 +9,11 @@ const LogoText = styled.h1`
     props => props.subheader ?
       "16px" : "42px"
     };
-  font-weight:200;
-  text-shadow:3px 3px black;
+  text-shadow: ${
+    props => props.subheader ?
+      "1.5px 1.5px #7a1f1f" : "2px 2px #7a1f1f"
+    };
+  font-weight: 200;
   color: #FAFAD2;
   margin: auto;
   padding: 10px;
